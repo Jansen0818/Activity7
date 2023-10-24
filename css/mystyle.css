@@ -1,0 +1,71 @@
+.homestyle1:hover {
+    background-color: rgba(240, 17, 248, 0.795);
+}
+.homestyle2:hover{
+    background-color:rgba(255, 0, 0, 0.781) ;
+}
+.bg1{
+    background-image: url('./images/');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.footer{
+    width:100% ;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding:  10px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   
+ }
+ p{
+    background-color: rgba(14, 182, 233, 0.664);
+    border: 5px solid rgb(163, 74, 223);
+    border-top: 5px solid rgb(163, 74, 223);
+    border-bottom: 5px solid  rgb(163, 74, 223);
+    padding: 20px;
+    text-align: right;
+
+ }
+ img{
+   width: 300px;
+    height: 300px;
+    border: 5px solid darkgreen;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 5px rgba(88, 88, 88, 0.705);
+    display: block;
+    margin: auto;
+ }
+ a:hover{
+   background-color: rgb(255, 255, 255);
+   color: rgb(24, 24, 24);
+   padding: 10px;
+ }
+table{
+    border: 1px solid lightblue;
+    border-collapse: collapse;
+    
+}
+td{
+    border: 1px solid lightblue;
+    padding: 5px;
+}
+tr:nth-child(odd){
+    background-color: rgba(13, 228, 243, 0.596);
+}
+tr:hover{
+    background-color: rgba(248, 19, 153, 0.452);
+}
